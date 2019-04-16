@@ -25,6 +25,4 @@ from .address import *
 
 
 def register():
-    Pool.register(
-        Address,
-        module='party_address_subdivision_child', type_='model')
+    Pool.register(Address, module='party_address_subdivision_child', type_='model')
